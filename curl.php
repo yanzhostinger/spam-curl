@@ -11,19 +11,17 @@ $p = "\e[1;37m";
 $level = rand(30,80); //Random Level
 $date = date('d-m-Y h:i:s');
 $login = "Facebook";
-$sender = 'From: LUMINE <result@luminexd.my.id>';
+$sender = 'From: LUMINE <result@yanzz.xzy>';
 $plat = "Android";
 $ip = "182.1.164.186";
-$msg = "AutoRessByLimunexd";
+$msg = "SpamByYanzzxHostinger";
 // Value Random
 
 // rndysuser 168
 // x 224
 // pass 50
 
-//http://panel-carding.duckdns.org/apiii.php
 $randuser = array(" "," ");
-//$randuser = array("+60 11-7162-0869","+60 18-4733-2747","+60 15-3672-0111","+60 11-6755-0234","+60 11-1112-0119","+60 10-7135-0825","+6038283728282","+60 10-3829-2818","+60 72887284","+606272816382","+607272817381","masriansya@ymail.com","+60618371828","+606163817282","+6027271838293","+609183719272","+607271928282","+607627283818","+60626188372","+60527817282");
 $random_keys=array_rand($randuser,2);
 $email = $randuser[$random_keys[rand(0,1)]]; // Var Email
 
